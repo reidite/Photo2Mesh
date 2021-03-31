@@ -8,33 +8,20 @@
 </p>
 Photogrammetry is the science of making measurements from photographs. It infers the geometry of a scene from a set of unordered photographs or videos. Photography is the projection of a 3D scene onto a 2D plane, losing depth information. The goal of photogrammetry is to reverse this process.
 
-# Method
+# Table of Contents
 
+* [Camera Initialization](1-CameraInitialization.md)
+* [Natural Feature Extraction](2-NatutalFeatureExtraction.md)
+* [Image Matching](3-ImageMatching.md)
+* [Features Matching](4-FeaturesMatching.md)
+* [Structure From Motion](5-StructureFromMotion.md)
+* [Depth Maps Estimation](6-DepthMapsEstimation.md)
+* [Meshing](7-Meshing.md)
+* [Texturing](8-Texturing.md)
+* [Localization](9-Localization.md)
 
+# Contact
+Email: nglequocviet@gmail.com
 
-
-
-
-
-
-
-
-
-
-## Camera Calibration
-
-Becoming a super hero is a fairly straight forward process:
-
-```
-$ give me super-powers
-```
-
-Once you're strong enough, save the world:
-
-```bash
-# Ain't no code for that yet, sorry
-echo 'You got to trust me on this, I saved the world'
-```
-
-
+[Vincent Nguyen](vincentnguyen.info)
 
