@@ -10,15 +10,15 @@ Photogrammetry is the science of making measurements from photographs. It infers
 
 # Table of Contents
 
-* [Camera Initialization](1-CameraInitialization.md)
-* [Natural Feature Extraction](2-NatutalFeatureExtraction.md)
-* [Image Matching](3-ImageMatching.md)
-* [Features Matching](4-FeaturesMatching.md)
-* [Structure From Motion](5-StructureFromMotion.md)
-* [Depth Maps Estimation](6-DepthMapsEstimation.md)
-* [Meshing](7-Meshing.md)
-* [Texturing](8-Texturing.md)
-* [Localization](9-Localization.md)
+* [1. Camera Initialization](1-CameraInitialization.md)
+* [2. Natural Feature Extraction](2-NatutalFeatureExtraction.md)
+* [3. Image Matching](3-ImageMatching.md)
+* [4. Features Matching](4-FeaturesMatching.md)
+* [5. Structure From Motion](5-StructureFromMotion.md)
+* [6. Depth Maps Estimation](6-DepthMapsEstimation.md)
+* [7. Meshing](7-Meshing.md)
+* [8. Texturing](8-Texturing.md)
+* [9. Localization](9-Localization.md)
 
 # Contact
 Email: nglequocviet@gmail.com
