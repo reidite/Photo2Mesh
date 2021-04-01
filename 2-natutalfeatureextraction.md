@@ -1,6 +1,36 @@
 # Natural Feature Extraction
 
-The objective of this step is to extract distinctive groups of pixels that are, to some extent, invariant to changing camera viewpoints during image acquisition. Hence, a feature **in** the scene should have similar feature descriptions in all images.
+The objective of this step is to extract distinctive groups of pixels that are, to some extent, invariant to changing camera viewpoints during image acquisition. Hence, a feature in the scene should have similar feature descriptions in all images.
+
+## Scale-Invariant Feature Transform
+
+The most well-known feature detection method is the SIFT \(Scale-invariant feature transform\) algorithm. The initial goal of SIFT is to extract discriminative patches in a first image that can be compared to discriminative patches of a second image irrespective of rotation, translation, and scale.
+
+![The limitations of HCD method](.gitbook/assets/sift_scale_invariant.jpg)
+
+In 2004, D.Lowe came up with a new algorithm SIFT which extracts keypoints and computes their descriptors. 
+
+### Scale-space Extrema Detection
+
+The first stage of computation searches over all scales and image locations. It is implemented efficiently by using a different-of-Gaussian function to identify potential interest points that are invariant to scale and orientation.
+
+![ For each octave of scale space, the initial image is repeatedly convolved with Gaussians to produce the set of scale space images shown on the left.](.gitbook/assets/sift_dog.jpg)
+
+### Keypoint Localization
+
+At each candidate location, a detailed model is fit to determine location and scale. Keypoints are selected based on measures of their stability.
+
+### Orientation Assignment
+
+One or more orientations are assigned to each keypoint location based on local image gradient directions. All future operations are performed on image data that has been transformed relative to the assigned orientation, scale, and location for each feature, thereby providing invariance to these transformations.
+
+### Keypoint Descriptor
+
+The local image gradients are measured at the selected scale in the region around each keypoint. There are transformed into a representation that allows for significant levels of local shape distortion and change in illumination.
+
+### Keypoint Matching
+
+Keypoints between two images are matched by identifying their nearest neighbors. But in some cases, the second closest match may be very near to the first. It may happen due to noise or some other reason. In that case,  the ratio of closest-distance to second-closest distance is taken. If it is greater than 0.8, they are rejected. It eliminates around 90% of false matches while discards only 5% of correct matches, as per the paper.
 
 ## References
 
