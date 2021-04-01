@@ -1,2 +1,2 @@
-# 1. Camera Initialization
+# Camera Initialization
 

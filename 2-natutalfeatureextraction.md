@@ -1,4 +1,4 @@
-# 2. Natural Feature Extraction
+# Natural Feature Extraction
 
 The objective of this step is to extract distinctive groups of pixels that are, to some extent, invariant to changing camera viewpoints during image acquisition. Hence, a feature **in** the scene should have similar feature descriptions in all images.
 
