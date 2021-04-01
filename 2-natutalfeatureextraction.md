@@ -51,69 +51,46 @@ The objective of this step is to extract distinctive groups of pixels that are, 
 
 * Pablo F. Alcantarilla, Jesus Nuevo, Adrien Bartoli. [Fast explicit diffusion for accelerated features in nonlinear scale spaces](http://www.bmva.org/bmvc/2013/Papers/paper0013/paper0013.pdf). BMVC 2013.
 
-  \`\`\`
-
-  @inproceedings{Alcantarilla2013,
-
-  author = {Fernández Alcantarilla, Pablo},
-
-  year = {2013},
-
-  month = {09},
-
-  pages = {},
-
-  title = {Fast Explicit Diffusion for Accelerated Features in Nonlinear Scale Spaces},
-
-  doi = {10.5244/C.27.13}
-
-  }
+> ```text
+> @inproceedings{Alcantarilla2013,
+> author = {Fernández Alcantarilla, Pablo},
+> year = {2013},
+> month = {09},
+> pages = {},
+> title = {Fast Explicit Diffusion for Accelerated Features in Nonlinear Scale Spaces},
+> doi = {10.5244/C.27.13}
+> }
+> ```
 
 * Yali Li, Shengjin Wang, Qi Tian, Xiaoqing Ding. [A survey of recent advances in visual feature detection](https://dl.acm.org/doi/10.1016/j.neucom.2014.08.003). NEUROC 2015.
 
-  \`\`\`
+```text
+@article{Li2015,
+author = {Li, Yali and Wang, Shengjin and Tian, Qi and Ding, Xiaoqing},
+year = {2015},
+month = {02},
+pages = {736-751},
+title = {A survey of recent advances in visual feature detection},
+volume = {149},
+journal = {Neurocomputing},
+doi = {10.1016/j.neucom.2014.08.003}
+}
+```
 
-  @article{Li2015,
 
-  author = {Li, Yali and Wang, Shengjin and Tian, Qi and Ding, Xiaoqing},
-
-  year = {2015},
-
-  month = {02},
-
-  pages = {736-751},
-
-  title = {A survey of recent advances in visual feature detection},
-
-  volume = {149},
-
-  journal = {Neurocomputing},
-
-  doi = {10.1016/j.neucom.2014.08.003}
-
-  }
 
 * Andrea Vedaldi, Brian Fulkerson. [VLFeat - An open and portable library of computer vision algorithms](https://www.robots.ox.ac.uk/~vedaldi/assets/pubs/vedaldi10vlfeat.pdf). ACMM 2008.
 
-  \`\`\`
-
-  @inproceedings{VLFEAT2008,
-
-  author = {Vedaldi, Andrea and Fulkerson, Brian},
-
-  year = {2010},
-
-  month = {10},
-
-  pages = {1469-1472},
-
-  title = {VLFeat: An open and portable library of computer vision algorithms},
-
-  volume = {3},
-
-  journal = {MM'10 - Proceedings of the ACM Multimedia 2010 International Conference},
-
-  doi = {10.1145/1873951.1874249}
-
-  }
+```text
+@inproceedings{VLFEAT2008,
+author = {Vedaldi, Andrea and Fulkerson, Brian},
+year = {2010},
+month = {10},
+pages = {1469-1472},
+title = {VLFeat: An open and portable library of computer vision algorithms},
+volume = {3},
+journal = {MM'10 - Proceedings of the ACM Multimedia 2010 International Conference},
+doi = {10.1145/1873951.1874249}
+}
+```
 
