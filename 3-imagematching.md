@@ -1,6 +1,6 @@
 # Image Matching
 
-The objective of this part is to find images that are looking to the same areas of the scene. For that, we use the image retrieval techniques to find images that share some content without the cost of resolving all feature matches in details. The ambition is to simplify the image in a compact image descriptor which allows to compute the distance between all images descriptors efficiently.
+The objective of this part is to find images that are looking at the same areas of the scene. For that, we use the image retrieval techniques to find images that share some content without the cost of resolving all feature matches in detail. The ambition is to simplify the image in a compact image descriptor which allows computing the distance between all image descriptors efficiently.
 
 ## References
 
