@@ -1,3 +1,10 @@
+---
+description: >-
+  This chapter describes numerical methods for estimating the camera projection
+  matrix from corresponding 3D space and image entities. This computation of the
+  camera matrix is known as resectioning. The
+---
+
 # Camera Initialization
 
 ## Get Projection Matrix
