@@ -17,6 +17,10 @@ We assume a number of point correspondences $$X_i \leftrightarrow x_i$$ between 
 
 Since the three equations above are linearly dependent, one may alternatively choose to use the first two equations.
 
+![](.gitbook/assets/png%20%281%29.png)
+
+From a set of $$n$$ point correspondences, we obtain a $$2n \times 12$$ matrix A by stacking up the equations for each correspondence. The projection matrix $$P$$ is computed by solving the set of equations $$\textbf{Ap} = 0$$ where $$\textbf{p}$$ is the vector containing the entries of the matrix $$P$$.
+
  
 
 ## Geometric error
