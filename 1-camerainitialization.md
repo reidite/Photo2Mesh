@@ -25,6 +25,12 @@ From a set of $$n$$ point correspondences, we obtain a $$2n \times 12$$ matrix A
 
 Since the 
 
+### Over-determined solution
+
+### Degenerate configurations
+
+### Data normalization
+
  
 
 ## Geometric error
