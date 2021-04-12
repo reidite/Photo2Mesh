@@ -31,6 +31,8 @@ Since the
 
 ### Data normalization
 
+### Line correspondences
+
  
 
 ## Geometric error
