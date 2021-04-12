@@ -15,6 +15,10 @@ We assume a number of point correspondences $$X_i \leftrightarrow x_i$$ between 
 
 ![](.gitbook/assets/png.png)
 
+Since the three equations above are linearly dependent, one may alternatively choose to use the first two equations.
+
+ 
+
 ## Geometric error
 
 ## Restricted camera estimation
