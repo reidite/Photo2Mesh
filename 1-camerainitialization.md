@@ -7,6 +7,8 @@ description: >-
 
 # Camera Initialization
 
+![](.gitbook/assets/screenshot-from-2021-05-20-14-24-00.png)
+
 ## Basic equations
 
 This section aims to compute the projection matrix that goes from world 3D coordinates to 2D image coordinates. The simplest such correspondence is that between a 3D point $$X$$ **and its image** $$x$$ ****under the unknown camera mapping and thus given sufficiently many correspondences $$X_i \leftrightarrow x_i$$ the camera matrix $$P$$ may be determined.
