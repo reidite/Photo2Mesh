@@ -1,5 +1,7 @@
 # Image Matching
 
+![](.gitbook/assets/rushmorerawpoints.jpg)
+
 The objective of this part is to find images that are looking at the same areas of the scene. For that, we use the image retrieval techniques to find images that share some content without the cost of resolving all feature matches in detail. The ambition is to simplify the image in a compact image descriptor which allows computing the distance between all image descriptors efficiently.
 
 ## References
