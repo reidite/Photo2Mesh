@@ -23,25 +23,3 @@ Since the three equations above are linearly dependent, one may alternatively ch
 
 From a set of $$n$$ point correspondences, we obtain a $$2n \times 12$$ matrix A by stacking up the equations for each correspondence. The projection matrix $$P$$ is computed by solving the set of equations $$\textbf{Ap} = 0$$ where $$\textbf{p}$$ is the vector containing the entries of the matrix $$P$$.
 
-### Minimal solution
-
-Since the 
-
-### Over-determined solution
-
-### Degenerate configurations
-
-### Data normalization
-
-### Line correspondences
-
- 
-
-## Geometric error
-
-## Restricted camera estimation
-
-## Radial distortion
-
-## Closure
-
