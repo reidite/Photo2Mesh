@@ -4,6 +4,16 @@
 
 Based on the SFM results, we can perform camera localization and retrieve the motion of an animated camera in the scene of the 3D reconstruction.
 
+## Camera Calibration
+
+To retrieve focal length, principal point, and distortion parameter, the camera parameters are calibrated from multiple views.
+
+## Single Camera Localization
+
+
+
+## Rig of Camera
+
 ## References
 
 ```text
