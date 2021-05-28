@@ -110,6 +110,51 @@ doi = {10.1007/s11263-008-0152-6}
 ```
 
 ```text
+@article{article,
+author = {Nister, D.},
+year = {2003},
+month = {01},
+pages = {756-777},
+title = {An Eifficient Solution to the Five-Point Relative Pose Problem},
+volume = {2},
+journal = {Proc. of CVPR}
+}
+```
 
+```text
+@inproceedings{inproceedings,
+author = {Havlena, Michal and Torii, Akihiko and Pajdla, Tomas},
+year = {2010},
+month = {08},
+pages = {100-113},
+title = {Efficient Structure from Motion by Graph Optimization},
+volume = {6312},
+isbn = {978-3-642-15551-2},
+doi = {10.1007/978-3-642-15552-9_8}
+}
+```
+
+```text
+@article{article,
+author = {Toldo, Roberto and Gherardi, Riccardo and Farenzena, Michela and Fusiello, Andrea},
+year = {2015},
+month = {06},
+pages = {},
+title = {Hierarchical structure-and-motion recovery from uncalibrated images},
+volume = {140},
+journal = {Computer Vision and Image Understanding},
+doi = {10.1016/j.cviu.2015.05.011}
+}
+```
+
+```text
+@inproceedings{inproceedings,
+author = {Shah, Rajvi and Deshpande, Aditya and Narayanan, P.},
+year = {2014},
+month = {12},
+pages = {417-424},
+title = {Multistage SFM: Revisiting Incremental Structure from Motion},
+doi = {10.1109/3DV.2014.95}
+}
 ```
 
